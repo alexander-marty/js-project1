@@ -3,6 +3,11 @@ const bankPercent = 0.07;
 const timeLimit = 24
 
 const target = 13500;
-const result = budget * ((1 + bankPercent /12) ** timeLimit)
+const result = budget * ((1 + bankPercent /12) **  timeLimit)
 
-console.log(result)
+
+if (result > target) {
+    console.log("You can buy a new house")
+} else {
+    console.log("Not enough money")
+}
