@@ -14,10 +14,11 @@ console.log(`-------------------------------`);
 
 const usersLength = users.push(`Jack`);
 console.log(usersLength);
+console.log(users);
 
 console.log(`-------------------------------`);
 
-users.unshift(`Jack`);
+users.unshift(`Jack1`);
 console.log(users);
 
 console.log(`--------------------------------`);
